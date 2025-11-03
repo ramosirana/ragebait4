@@ -60,6 +60,16 @@
             box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
             margin: 40px auto;
       }
+      button {
+    width: 100%;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 6px;
+    color: #ded5d5;
+    font-size: 15px;
+    cursor: pointer;
+}
 </style>
 <body>
 <div class="container1; col-md" id="big">
@@ -80,34 +90,36 @@
            <div class="grade-grid">
   <label for="sci">Science</label>
   <br>
-  <input type="number" id="sci" name="sci" max="100">
+  <input type="number" id="sci" name="sci" value="" max="100">
   <br>
 
   <label for="eng">English</label>
   <br>
-  <input type="number" id="eng" name="eng" max="100">
+  <input type="number" id="eng" name="eng" value="" max="100">
   <br>
 
   <label for="math">Math</label>
   <br>
-  <input type="number" id="math" name="math" max="100">
+  <input type="number" id="math" name="math" value="" max="100">
   <br>
 
   <label for="fil">Filipino</label>
   <br>
-  <input type="number" id="fil" name="fil" max="100">
+  <input type="number" id="fil" name="fil" value="" max="100">
   <br>
 
   <label for="ict">ICT</label>
   <br>
-  <input type="number" id="ict" name="ict" max="100">
+  <input type="number" id="ict" name="ict" value="" max="100">
   <br>
 
   <label for="pe">PE</label>
   <br>
-  <input type="number" id="pe" name="pe" max="100">
+  <input type="number" id="pe" name="pe" value="" max="100">
   <br>
     </div>
+    <br>
+    <button py-click="gwa">Calculate GWA</button>
     </form>
 </div>
  <script type="py" src="main.py"></script>
